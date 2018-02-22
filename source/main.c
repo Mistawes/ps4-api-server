@@ -182,7 +182,7 @@ int init(){
 	kexec(kernelPayload, NULL);
 	if (initSockets())
 	{
-		NOTIFY("PS4API By Mistawes STARTED v%s\n", VERSION);
+		NOTIFY("PS4API By BISOON STARTED v%s\n", VERSION);
 		return 1;
 	}
 	else
