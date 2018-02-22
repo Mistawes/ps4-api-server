@@ -1,5 +1,5 @@
 
-#define LOG_IP IP(192, 168, 100, 2)
+#define LOG_IP IP(192, 168, 0, 28)
 #define LOG_PORT 9023
 #define SERVER_PORT 9090
 #define BACK_LOG 1
@@ -10,6 +10,7 @@
 int logSock = -1;
 int serverSockFd = -1;
 int clientSockFd;
+
 #define PRINTS(format, ...)\
 	do {\
 		char bufferForTheSocket[512];\
@@ -66,8 +67,6 @@ int initSockets()
 {
 	#ifdef LOG
 		initLog();
-	#else
-		#define PRINTS(...)
 	#endif
 	int severPort = SERVER_PORT;
 	for(int i = 0; i < PORT_RANGE_POSSIBILITY; i++)
