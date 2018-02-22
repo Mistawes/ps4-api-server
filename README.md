@@ -56,4 +56,4 @@ args:
 
 CTurt -> the SDK.
 Specter -> exploit implementation.
-BISOON, IDC, xvortex, 2much4u, anyone else I missed (message me for the Credits)
+BISOON, IDC, xvortex, 2much4u, WildCard, Shadow + anyone else I missed (message me for the Credits)
