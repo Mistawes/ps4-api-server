@@ -3,6 +3,8 @@
 This project allows you to control PS4 game memory for reading/writing calls.
 with this project you can make RTE/RTM tools
 
+# No 'exploit host' required (still a great tool!).
+This fork has been modified to work with just a regular webhost and Netcat to send payload.
 
 ## Installation
 
