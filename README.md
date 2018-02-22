@@ -3,7 +3,8 @@
 This project allows you to control PS4 game memory for reading/writing calls.
 with this project you can make RTE/RTM tools
 
-# No 'exploit host' required (still a great tool!).
+## No 'exploit host' required (still a great tool!).
+
 This fork has been modified to work with just a regular webhost and Netcat to send payload.
 This fixes an issue, for those of us getting 2 connection prompts and still can't attach.
 
@@ -55,4 +56,4 @@ args:
 
 CTurt -> the SDK.
 Specter -> exploit implementation.
-BISOON, IDC, xvortex, 2much4u, who else I missed (message me for the Credits)
+BISOON, IDC, xvortex, 2much4u, anyone else I missed (message me for the Credits)
